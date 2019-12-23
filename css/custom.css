@@ -1,0 +1,28 @@
+.gameboard {
+  border-radius: 30px 30px;
+}
+body {
+  background-image: url(../photos/SoftBlue.jpg);
+  font-family: monospace;
+  height: 100vh
+}
+.round{
+  border-top-right-radius: 30px;
+}
+.round2{
+  border-top-left-radius: 30px;
+}
+.screen {
+  height: 525px;
+  border-radius: 20px 20px 0 0;
+  background-image: url(../photos/connect.png);
+}
+h3 {
+  font-size: 40px;
+}
+.click {
+  font-size: 25px;
+}
+.bottom {
+  height: 150px;
+}

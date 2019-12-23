@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="../boot/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/custom.css">
+
+    <title>my game</title>
+  </head>
+  <body class="overflow-hidden d-flex align-items-center">
+    <div class="container gameboard bg-dark p-5 my-auto">
+      <div class="row bg-white screen">
+        <div class="col-5 p-5 round2">
+          <h3 class="my-5 text-center">
+            Player
+          </h3>
+          <div id="player">
+
+          </div>
+        </div>
+        <div class="col-2 d-flex align-items-center text-center justify-content-center">
+
+          <h3>VS</h3>
+        </div>
+
+        <div class="col-5 p-5">
+          <h3 class="my-5 text-center">
+            Computer
+          </h3>
+          <div id="comp">
+
+          </div>
+          </div>
+
+      </div>
+      <div class="row text-danger">
+        <div class="col-12 text-light d-flex justify-content-around align-items-center bg-secondary bottom">
+
+          <h1 id="winner" class="my-5">
+
+          </h1>
+
+        <h2 id="wins" class="text-light"></h2>
+        <h2 id="loss" class="text-light"></h2>
+        <h2 id="ties" class="text-light"></h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row my-5">
+        <div class="col-12 p-2 d-flex justify-content-center">
+        <div class="btn-group w-100" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-danger p-1 click" id="rock">rock</button>
+  <button type="button" class="btn btn-success click" id="paper">paper</button>
+  <button type="button" class="btn btn-warning text-light click" id="scissors">scissors</button>
+  <button type="button" class="btn btn-primary click" id="clear">Clear</button>
+</div>
+
+      </div>
+      </div>
+      </div>
+      </div>
+
+    <script type="text/javascript" src="../js/game.js"></script>
+    <script src="../boot/jquery-3.4.1.min.js"></script>
+      <script src="../boot/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
